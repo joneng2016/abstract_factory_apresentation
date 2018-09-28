@@ -12,8 +12,8 @@ class Run
 		if($tipo == 'popular')
 			$cf = new CarroPopularFactory;
 
-		$cd->montarRoda();
-		$cd->montarSom();
+		$cf->montarRoda();
+		$cf->montarSom();
 
 
 	}
